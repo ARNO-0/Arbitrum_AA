@@ -8,7 +8,6 @@ contract SmartWalletProxy {
         0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc;
     bytes32 internal constant _OWNER_SLOT =
         0xb4a99a4e5a74f060473043af6591d7f041a3456d30592a5704829761f2eecca5;
-    uint256 private constant _BITMASK_ADDRESS = (1 << 160) - 1;
 
     constructor(
         address logic,
@@ -50,9 +49,6 @@ contract SmartWalletProxy {
 
     function upgradeTo(address newImplementation) external onlyOwner {
         _setImplementation(newImplementation);
-        assembly {
-            let _newImplementation := and(newImplementation, _BITMASK_ADDRESS)
-        }
     }
 
     function getImplementation() public view returns (address implementation) {
