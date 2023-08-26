@@ -233,11 +233,11 @@ These meticulously curated features collectively empower the SmartWallet contrac
 
 - [sepolia](https://sepolia.etherscan.io/address/0xe65cdb885918b47fbd516061dac42ce976cd28bd)
 - [avalanche testnet](https://testnet.snowtrace.io/address/0x1206f86bfbc37e3a2f87a85865bccb18c1d19b86)
-- [Arbitrum testnet]()
+- [Arbitrum testnet](https://goerli.arbiscan.io/address/0xa3BE3E824827904163618C7FbFAd3Db87d4EfA11)
 
 #### SmartWallet Contract Addresses
 
 - [sepolia](https://sepolia.etherscan.io/address/0x46c0C0bf6A37314D009f3AD736c20feBF396a92B)
 - [avalanche testnet](https://testnet.snowtrace.io/address/0x61fde233a97397b060580b8217ffd3395d3b62db)
-- [Arbitrum testnet]()
+- [Arbitrum testnet](https://goerli.arbiscan.io/address/0xfa2bd035bef46116090c847a3ec03651b8c3880a)
 
